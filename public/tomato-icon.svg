@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <!-- Tomato Fruit Body -->
+  <circle cx="50" cy="56" r="34" fill="#E10600" />
+  
+  <!-- Subtle Highlight on upper-right/crescent -->
+  <path d="M 68 40 C 76 47 78 60 72 70" 
+        stroke="#FFFFFF" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        opacity="0.75" 
+        fill="none" />
+
+  <!-- Calyx & Leaves (5 leaves spreading out from stem) -->
+  <g id="calyx" fill="#1E7A34">
+    <!-- Center calyx star -->
+    <!-- Leaf 1 (Left) -->
+    <path d="M 50 25 C 44 26 36 29 30 33 C 37 36 43 33 48 30 Z" />
+    <!-- Leaf 2 (Down-Left) -->
+    <path d="M 48 29 C 43 34 38 41 38 48 C 44 44 47 38 49 32 Z" />
+    <!-- Leaf 3 (Down-Right) -->
+    <path d="M 52 29 C 57 34 62 41 62 48 C 56 44 53 38 51 32 Z" />
+    <!-- Leaf 4 (Right) -->
+    <path d="M 50 25 C 56 26 64 29 70 33 C 63 36 57 33 52 30 Z" />
+    <!-- Leaf 5 (Back-Center) -->
+    <path d="M 48 27 C 49 22 50 18 50 16 C 51 18 52 22 53 27 Z" />
+    
+    <!-- Curved Stem -->
+    <path d="M 49 25 C 49 19 46 14 41 12 C 43 11 48 12 51 16 C 52 19 51 23 50 25 Z" />
+  </g>
+</svg>

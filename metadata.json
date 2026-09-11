@@ -1,0 +1,6 @@
+{
+  "name": "Tomato",
+  "description": "Tomato Apparel Co. - Wear a Brighter You. Good Clothes, Brighter Days.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
